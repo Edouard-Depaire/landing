@@ -1,0 +1,28 @@
+.banner {
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 50%), url(../../images/background.jpg);
+	color: white;
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: center;
+}
+
+.banner h1 {
+	background-image: -webkit-gradient(linear,left top,right top,from(#3da3b2),color-stop(33%,#abeece),color-stop(67%,#e8c0a0),to(#3da3b2)); */
+    background-image: -o-linear-gradient(left,#3da3b2 0,#abeece 33%,#e8c0a0 67%,#3da3b2 100%);
+    background-image: linear-gradient(90deg,#3da3b2,#abeece 33%,#e8c0a0 67%,#3da3b2);
+    -o-animation: animate-bg-gradient 12s linear infinite;
+    top: 0;
+    content: attr(data-title);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: hsla(0,0%,100%,0);
+}
+
+.banner h2 {
+	font-size: 30px;
+	font-weight: lighter;
+	opacity: 0.8;
+	margin-bottom: 30px
+}
+
+
+
